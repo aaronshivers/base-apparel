@@ -1,0 +1,9 @@
+// Gradients
+
+@mixin background-gradient-white {
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+@mixin background-gradient-red {
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}

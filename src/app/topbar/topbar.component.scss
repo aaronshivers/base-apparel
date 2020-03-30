@@ -1,0 +1,11 @@
+@import "src/assets/scss/mixins";
+
+.topbar {
+  @include background-gradient-white;
+  width: 100%;
+}
+
+.topbar__logo {
+  width: 30%;
+  margin: 1.5rem;
+}
