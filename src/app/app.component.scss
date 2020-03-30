@@ -1,0 +1,6 @@
+@import "src/assets/scss/mixins";
+
+.container {
+  height: 100%;
+  @include background-gradient-white;
+}

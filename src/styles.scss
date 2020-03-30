@@ -1,9 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap');
+@import "assets/scss/variables";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: $font-style;
+  font-size: $font-size;
+  font-weight: $font-weight-normal;
 }

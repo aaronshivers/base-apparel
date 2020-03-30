@@ -1,0 +1,11 @@
+@import "src/assets/scss/mixins";
+
+.contact__button {
+  //background-image: url("src/assets/images/icon-arrow.svg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 30px;
+  border-radius: 40%;
+  @include background-gradient-red;
+  border-color: transparent;
+}
