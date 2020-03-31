@@ -2,18 +2,22 @@
 @import "src/assets/scss/variables";
 
 .contact {
-  margin: 2rem;
+  background-color: white;
+  border: 1px solid $red-desaturated;
+  border-radius: 1.5rem;
+  margin: 2rem 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .contact__input {
-  border: 1px solid $red-desaturated;
+  border: none;
   border-radius: 1.5rem;
   padding: 0 1rem;
   height: 2.5rem;
   width: 17rem;
+  outline: none;
 }
 
 .contact__button {

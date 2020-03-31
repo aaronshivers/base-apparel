@@ -1,6 +1,8 @@
 @import "src/assets/scss/mixins";
 
 .container {
+  width: 375px;
   height: 100%;
-  @include background-gradient-white;
+  padding: 2rem;
+  margin: 0 auto;
 }

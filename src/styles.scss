@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap');
 @import "assets/scss/variables";
+@import "assets/scss/mixins";
 
 * {
   margin: 0;
@@ -13,4 +14,5 @@ body {
   font-family: $font-style;
   font-size: $font-size;
   font-weight: $font-weight-normal;
+  @include background-gradient-white;
 }
