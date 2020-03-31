@@ -2,7 +2,7 @@
 @import "src/assets/scss/variables";
 
 .contact {
-  background-color: white;
+  background-color: transparent;
   border: 1px solid $red-desaturated;
   border-radius: 1.5rem;
   margin: 2rem 0;
@@ -12,12 +12,17 @@
 }
 
 .contact__input {
+  background-color: transparent;
   border: none;
   border-radius: 1.5rem;
   padding: 0 1rem;
   height: 2.5rem;
   width: 17rem;
   outline: none;
+}
+
+.contact__input::placeholder {
+  color: $red-desaturated
 }
 
 .contact__button {
