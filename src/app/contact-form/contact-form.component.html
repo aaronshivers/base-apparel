@@ -1,6 +1,31 @@
 <div class="contact">
-  <input type="text" class="contact__input" placeholder="Email Address">
-  <button class="contact__button">
-    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg>
-  </button>
+  <form
+    #f="ngForm"
+    (ngSubmit)="onSubmit(f)"
+    [class.contact--error]="f.invalid || f.invalid && f.touched"
+    class="contact__form"
+  >
+    <input
+      class="contact__input"
+      name="email"
+      ngModel
+      placeholder="Email Address"
+      type="email"
+      email
+    >
+    <button class="contact__button">
+      <svg
+        height="20"
+        width="12"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1l8.836 8.836L1 18.671"
+          fill="none"
+          stroke="#FFF"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+  </form>
 </div>

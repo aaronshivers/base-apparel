@@ -1,7 +1,7 @@
 @import "src/assets/scss/mixins";
 @import "src/assets/scss/variables";
 
-.contact {
+.contact__form {
   background-color: transparent;
   border: 1px solid $red-desaturated;
   border-radius: 1.5rem;
@@ -11,6 +11,9 @@
   justify-content: center;
 }
 
+.contact--error {
+  border: 1px solid $red-soft;
+}
 .contact__input {
   background-color: transparent;
   border: none;
@@ -33,4 +36,6 @@
   border-radius: 1.5rem;
   @include background-gradient-red;
   box-shadow: 5px 5px 15px $red-desaturated;
+  outline: none;
 }
+
