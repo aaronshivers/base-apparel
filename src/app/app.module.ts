@@ -6,7 +6,6 @@ import { TopbarComponent } from './topbar/topbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { MainComponent } from './main/main.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
-import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +14,12 @@ import { FooterComponent } from './footer/footer.component';
     HeroComponent,
     MainComponent,
     ContactFormComponent,
-    FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ],
 })
-export class AppModule { }
+export class AppModule {
+}
