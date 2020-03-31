@@ -1,11 +1,27 @@
 @import "src/assets/scss/mixins";
+@import "src/assets/scss/variables";
+
+.contact {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact__input {
+  border: 1px solid $red-desaturated;
+  border-radius: 1.5rem;
+  padding: 0 1rem;
+  height: 2.5rem;
+  width: 17rem;
+}
 
 .contact__button {
-  //background-image: url("src/assets/images/icon-arrow.svg");
   background-repeat: no-repeat;
-  width: 40px;
-  height: 30px;
-  border-radius: 40%;
+  width: 4rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 1.5rem;
   @include background-gradient-red;
-  border-color: transparent;
+  box-shadow: 5px 5px 15px $red-desaturated;
 }
