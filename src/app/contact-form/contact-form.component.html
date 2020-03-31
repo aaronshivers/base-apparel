@@ -7,11 +7,11 @@
   >
     <input
       class="contact__input"
+      email
       name="email"
       ngModel
       placeholder="Email Address"
       type="email"
-      email
     >
     <button class="contact__button">
       <svg
@@ -28,4 +28,8 @@
       </svg>
     </button>
   </form>
+  <p
+    *ngIf="f.invalid || f.invalid && f.touched"
+    class="contact__hint"
+  >Please provide a valid email</p>
 </div>
