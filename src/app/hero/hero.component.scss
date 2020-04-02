@@ -5,5 +5,15 @@
 }
 
 .hero__image {
-  width: 100%;
+  background-image: url("src/assets/images/hero-mobile.jpg");
+  width: 375px;
+  min-height: 250px;
+}
+
+@media (min-width: 1000px) {
+  .hero__image {
+    background-image: url("src/assets/images/hero-desktop.jpg");
+    width: 610px;
+    min-height: 800px;
+  }
 }

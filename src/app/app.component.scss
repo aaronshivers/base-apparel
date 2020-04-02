@@ -1,8 +1,28 @@
 @import "src/assets/scss/mixins";
 
-.container {
+.inner-container {
   width: 375px;
   height: 100%;
   padding: 2rem;
   margin: 0 auto;
+}
+
+@media (min-width: 1000px) {
+  .outer-container {
+    display: grid;
+    grid-template-areas: 'topbar hero'
+                         'container hero';
+  }
+
+  app-topbar {
+    grid-area: topbar;
+  }
+
+  .inner-container {
+    grid-area: container;
+  }
+
+  app-hero {
+    grid-area: hero;
+  }
 }
