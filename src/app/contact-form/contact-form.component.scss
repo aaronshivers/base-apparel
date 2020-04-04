@@ -55,7 +55,7 @@
 
 @media (min-width: 1000px) {
   .contact__form {
-    justify-content: space-around;
+    //justify-content: space-evenly;
   }
 
   .contact__form {
@@ -75,7 +75,7 @@
   }
 
   .contact__button {
-    width: 9rem;
+    width: 12rem;
     height: 5rem;
     border-radius: 3rem;
   }
