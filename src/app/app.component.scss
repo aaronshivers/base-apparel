@@ -16,19 +16,19 @@
 
   app-topbar {
     grid-area: topbar;
-    width: 50vw;
+    width: 60vw;
     height: 1vh;
     padding: 4rem 9rem 0;
   }
 
   .inner-container {
     grid-area: container;
-    width: 50vw;
+    width: 60vw;
     padding: 0 9rem;
   }
 
   app-hero {
     grid-area: hero;
-    width: 50vw;
+    width: 40vw;
   }
 }
