@@ -3,7 +3,7 @@
 
 .contact__form {
   background-color: transparent;
-  border: 1px solid $red-desaturated;
+  border: 1px solid lighten($red-dark-gray, 50%);
   border-radius: 1.5rem;
   margin: 2rem 0 0;
   display: flex;
@@ -14,6 +14,7 @@
 .contact--error {
   border: 1px solid $red-soft;
 }
+
 .contact__input {
   color: $red-dark-gray;
   background-color: transparent;
@@ -26,7 +27,7 @@
 }
 
 .contact__input::placeholder {
-  color: $red-desaturated
+  color: lighten($red-dark-gray, 50%)
 }
 
 .contact__error-icon {
@@ -50,4 +51,39 @@
   color: $red-desaturated;
   font-size: .9rem;
   margin: .75rem;
+}
+
+@media (min-width: 1000px) {
+  .contact__form {
+    justify-content: space-around;
+  }
+
+  .contact__form {
+    height: 5rem;
+    border-radius: 2.5rem;
+  }
+
+  .contact__input {
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    width: 30rem;
+  }
+
+  .contact__error-icon {
+    margin-top: 1.7rem;
+    margin-right: 2rem;
+  }
+
+  .contact__button {
+    width: 9rem;
+    height: 5rem;
+    border-radius: 3rem;
+  }
+
+  .contact__hint {
+    font-size: 1.2rem;
+    margin: 1rem;
+    margin-left: 2.5rem;
+    width: 100%;
+  }
 }

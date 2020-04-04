@@ -17,11 +17,14 @@
   app-topbar {
     grid-area: topbar;
     width: 50vw;
+    height: 1vh;
+    padding: 4rem 9rem 0;
   }
 
   .inner-container {
     grid-area: container;
     width: 50vw;
+    padding: 0 9rem;
   }
 
   app-hero {

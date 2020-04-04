@@ -28,3 +28,23 @@
   line-height: 1.5rem;
   margin-top: 1.5rem;
 }
+
+@media (min-width: 1000px) {
+  .main {
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+
+  .main__header {
+    font-size: 5.5rem;
+  }
+
+  .main__subheader {
+    font-size: 5.5rem;
+  }
+
+  .main__body {
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+  }
+}
