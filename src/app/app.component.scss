@@ -16,13 +16,16 @@
 
   app-topbar {
     grid-area: topbar;
+    width: 50vw;
   }
 
   .inner-container {
     grid-area: container;
+    width: 50vw;
   }
 
   app-hero {
     grid-area: hero;
+    width: 50vw;
   }
 }
